@@ -56,14 +56,22 @@ p {
 
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    gap: 32px;
 }
 
+.apresentacao__links__subtitulo{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
 .apresentacao__links__link {
-    background-color: #B8EABF;
-    width: 280px;
+    border: 3.5px groove #B8EABF;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
