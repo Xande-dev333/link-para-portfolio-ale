@@ -24,12 +24,25 @@ p {
     font-style: italic;
     font-weight: 200;
 }
-.destaque-titulo {
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
     color: #B8EABF;
+    text-decoration: none;
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -45,6 +58,10 @@ p {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: "Archivo Black", sans-serif;
+}
+
+.destaque-titulo {
+    color: #B8EABF;
 }
 
 .apresentacao__conteudo__texto {
